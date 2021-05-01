@@ -18,9 +18,11 @@ https://tailwindcss.com/docs
 - [ ] favoicon(den lilla i browserfliken)
 - [ ] Fade in effekt på texterna?
 - [ ] Byta facebook-loggan mot linkedIn
+- [ ] Darkmode?
 - [ ] Deploy
 
 #### VERSION 2
+- [ ] Darkmode?
 - [ ] Om oss section
 - [ ] Kontakt
 - [ ] Bilder på oss
