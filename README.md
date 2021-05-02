@@ -16,6 +16,7 @@ https://tailwindcss.com/docs
 - [x] bilder i assets(länkas med url från vår gammla hemsida)
 - [x] Länka till företags hemsidor onClick på loggorna?
 - [ ] SEO
+- [ ] Korrekta texter?
 - [x] favoicon(den lilla i browserfliken)
 - [ ] Fade in effekt på texterna?
 - [x] Byta facebook-loggan mot linkedIn
