@@ -13,8 +13,8 @@ https://tailwindcss.com/docs
 
 ### TODOS
 #### VERSION 1
-- [ ] bilder i assets(länkas med url från vår gammla hemsida)
-- [ ] Länka till företags hemsidor onClick på loggorna?
+- [x] bilder i assets(länkas med url från vår gammla hemsida)
+- [x] Länka till företags hemsidor onClick på loggorna?
 - [ ] SEO
 - [ ] favoicon(den lilla i browserfliken)
 - [ ] Fade in effekt på texterna?
