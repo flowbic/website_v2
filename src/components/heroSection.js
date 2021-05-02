@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
   AnnotationIcon,
@@ -10,7 +10,8 @@ import {
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
-import heroImage from "../../src/assets/images/header_image.jpg";
+import heroImageLightSrc from "../../src/assets/images/header_image_light.webp";
+import heroImageSrc from "../../src/assets/images/header_image.webp";
 import flowbicLogo from "../../src/assets/images/flowbic_logo.svg";
 const solutions = [
   {
@@ -122,6 +123,17 @@ DROPDOWN-CODE
                         </Popover.Button> */
 
 export default function HeroSection() {
+  const [heroImage, setHeroImage] = useState();
+  
+  useEffect(() => {
+    const imageLoader = new Image();
+    imageLoader.src = heroImageSrc;
+
+    imageLoader.onload = () => {
+      setHeroImage(heroImageSrc);
+    };
+  }, [])
+
   return (
     <div className="bg-white">
       <header>
@@ -288,7 +300,7 @@ export default function HeroSection() {
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
-                  src={heroImage}
+                  src={heroImage || heroImageLightSrc}
                   alt="People working on laptops"
                 />
                 <div
