@@ -10,7 +10,7 @@ import {
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
-import heroImage from "../../src/assets/images/header_image.jpg";
+import heroImage from "../../src/assets/images/header_image_light.webp";
 import flowbicLogo from "../../src/assets/images/flowbic_logo.svg";
 const solutions = [
   {
