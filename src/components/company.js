@@ -1,7 +1,7 @@
 import beanloopLogo from "../assets/images/beanloop_logo.svg";
 import edaiderLogo from "../assets/images/edaider-logo_new.svg";
-import ohCleoLogo from "../assets/images/ohcleo_logo_bred.png";
-import urbanTvLogo from "../assets/images/urban_tv_croped.png";
+import ohCleoLogo from "../assets/images/ohcleo_logo_light.png";
+import urbanTvLogo from "../assets/images/urban_tv_small.png";
 import kostfondenLogo from "../assets/images/kostfonden_logo.png";
 
 /* This example requires Tailwind CSS v2.0+ */

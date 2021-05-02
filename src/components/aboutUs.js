@@ -1,3 +1,4 @@
+import teamOutsideImage from "../assets/images/flowbic.webp";
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
   { label: "Startat", value: "2018" },
@@ -5,6 +6,7 @@ const stats = [
   { label: "Beta Users", value: "521" },
   { label: "Raised", value: "$25M" },
 ];
+
 
 export default function AboutUs() {
   return (
@@ -54,7 +56,7 @@ export default function AboutUs() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://flowbic.se/img/team/flowbic.webp"
+                src={teamOutsideImage}
                 alt=""
               />
               <div
