@@ -12,7 +12,7 @@ export default function Company() {
   };
 
   return (
-    <div className="bg-white mt-20">
+    <div className="bg-white lg:mt-20">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 ">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center ">
           <div>
@@ -36,7 +36,7 @@ export default function Company() {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="mailto:kontakt@flowbic.se"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200  transform hover:-translate-y-1 hover:scale-110"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200  transform hover:-translate-y-1"
                 >
                   Kontakta oss
                 </a>
