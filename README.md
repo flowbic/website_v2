@@ -15,10 +15,11 @@ https://tailwindcss.com/docs
 #### VERSION 1
 - [x] bilder i assets(länkas med url från vår gammla hemsida)
 - [x] Länka till företags hemsidor onClick på loggorna?
-- [ ] SEO
-- [ ] favoicon(den lilla i browserfliken)
+- [x] SEO
+- [ ] Korrekta texter?
+- [x] favoicon(den lilla i browserfliken)
 - [ ] Fade in effekt på texterna?
-- [ ] Byta facebook-loggan mot linkedIn
+- [x] Byta facebook-loggan mot linkedIn
 - [ ] Deploy
 
 #### VERSION 2
