@@ -233,7 +233,7 @@ export default function HeroSection() {
                         <div className="mt-3 sm:mt-0 sm:ml-3">
                           <a
                             href="#"
-                            className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
+                            className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200  transform hover:-translate-y-1"
                           >
                             Kontakta oss
                           </a>
