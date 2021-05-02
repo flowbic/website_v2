@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import teamOutsideImage from "../assets/images/flowbic.webp";
-=======
 import FadeInSection from "./fadeIn/fadeIn";
 
->>>>>>> master
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
   { label: "Startat", value: "2018" },
