@@ -11,7 +11,7 @@ import {
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
 import heroImage from "../../src/assets/images/header_image.jpg";
-
+import flowbicLogo from '../../src/assets/images/flowbic_logo.svg'
 const solutions = [
   {
     name: "Joel Carlsson",
@@ -134,7 +134,7 @@ export default function HeroSection() {
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-8 w-auto sm:h-10"
-                      src="https://flowbic.se/img/portfolio/Resurs%203.svg"
+                      src={flowbicLogo}
                       alt=""
                     />
                   </a>
@@ -206,7 +206,7 @@ export default function HeroSection() {
                         <div>
                           <img
                             className="h-8 w-auto"
-                            src="https://flowbic.se/img/portfolio/Resurs%203.svg"
+                            src={flowbicLogo}
                             alt="Workflow"
                           />
                         </div>
