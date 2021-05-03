@@ -1,8 +1,13 @@
+import david from "../assets/images/david.webp";
+import carl from "../assets/images/carl.webp";
+import karl from "../assets/images/karl.webp";
+import joel from "../assets/images/joel.webp";
+import marcus from "../assets/images/marcus.webp";
 const people = [
   {
     name: "Joel Carlsson",
     role: "Senior Front-end Developer",
-    imageUrl: "https://flowbic.se/img/team/joel.webp",
+    imageUrl: joel,
     bio: "Joel är kreativ, analytisk och en fena på att lösa logiska problem.",
     twitterUrl: "#",
     linkedinUrl: "#",
@@ -10,7 +15,7 @@ const people = [
   {
     name: "David Sturesson",
     role: "Senior Front-end Developer",
-    imageUrl: "https://flowbic.se/img/team/david.webp",
+    imageUrl: david,
     bio: "David är en strukturerad kodare med starka skills i problemförståelse och inlärning.",
     twitterUrl: "#",
     linkedinUrl: "#",
@@ -19,7 +24,7 @@ const people = [
   {
     name: "Carl Ejnarsson",
     role: "Senior Front-end Developer",
-    imageUrl: "https://flowbic.se/img/team/carl.webp      ",
+    imageUrl: carl,
     bio:
       "Carl är en strukturerad utvecklare med ett starkt öga för detaljer och design.",
     twitterUrl: "#",
@@ -28,7 +33,7 @@ const people = [
   {
     name: "Marcus Thuresson",
     role: "Senior Front-end Developer",
-    imageUrl: "https://flowbic.se/img/team/marcus.webp",
+    imageUrl: marcus,
     bio:
       "Marcus är en riktig ”doer” med ett starkt kreativt tänk som skapar grymma lösningar i de största utmaningarna",
     twitterUrl: "#",
@@ -37,7 +42,7 @@ const people = [
   {
     name: "Karl Erelöf",
     role: "Senior Front-end Developer",
-    imageUrl: "https://flowbic.se/img/team/karl.webp",
+    imageUrl: karl,
     bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvao och förståelse i varje projekt.",
     twitterUrl: "#",
     linkedinUrl: "#",
