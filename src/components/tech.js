@@ -28,7 +28,7 @@ export default function Tech() {
                 alt="Workcation"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 hover:bg-gray-200">
+            <div className="col-span-1 flex justify-center py-8 px-4 bg-gray-50 hover:bg-gray-200">
               <img
                 className="max-h-12"
                 src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
