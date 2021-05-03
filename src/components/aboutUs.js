@@ -1,3 +1,4 @@
+// import teamOutsideImage from "../assets/images/flowbic.webp";
 import FadeInSection from "./fadeIn/fadeIn";
 import teamImage from "../assets/images/group_one.webp";
 
@@ -8,6 +9,7 @@ const stats = [
   // { label: "Aktiva projekt", value: "7" },
   // { label: "Raised", value: "$25M" },
 ];
+
 
 export default function AboutUs() {
   return (
