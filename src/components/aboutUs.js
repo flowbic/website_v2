@@ -1,12 +1,13 @@
-import teamOutsideImage from "../assets/images/flowbic.webp";
+// import teamOutsideImage from "../assets/images/flowbic.webp";
 import FadeInSection from "./fadeIn/fadeIn";
+import teamImage from "../assets/images/group_one.webp";
 
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
-  { label: "Startat", value: "2018" },
-  { label: "Anställda", value: "5" },
-  { label: "Beta Users", value: "521" },
-  { label: "Raised", value: "$25M" },
+  { label: "Pågående projekt", value: "8" },
+  { label: "Medlemmar i teamet", value: "5" },
+  // { label: "Aktiva projekt", value: "7" },
+  // { label: "Raised", value: "$25M" },
 ];
 
 
@@ -58,7 +59,7 @@ export default function AboutUs() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src={teamOutsideImage}
+                src={teamImage}
                 alt=""
               />
               <div
@@ -76,30 +77,17 @@ export default function AboutUs() {
           <FadeInSection>
             <div className="pt-12 sm:pt-16 lg:pt-20">
               <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-                On a mission to empower teams
+                Vi älskar att koda
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  Dictum urna sed consectetur neque tristique pellentesque.
-                  Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc
-                  nisl netus morbi vel porttitor vitae ut. Amet vitae fames
-                  senectus vitae.
+                  Flowbic är ett tight utvecklarteam som älskar att koda och
+                  du hittar oss i både Kalmar och Stockholm men vi jobbar gärna remote.
                 </p>
                 <p className="text-base leading-7">
-                  Sollicitudin tristique eros erat odio sed vitae, consequat
-                  turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                  eu viverra donec ut volutpat donec laoreet quam urna.
-                  Sollicitudin tristique eros erat odio sed vitae, consequat
-                  turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                  eu viverra donec ut volutpat donec laoreet quam urna.
+                  Vi gillar att koda dynamiska webbplattformar och applikationer med höga krav på funktionalitet.
                 </p>
                 <p className="text-base leading-7">
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                  tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                  semper. Pellentesque in venenatis vestibulum consectetur nibh
-                  id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                  fermentum lacus in. Viverra.
                 </p>
               </div>
             </div>
@@ -123,11 +111,11 @@ export default function AboutUs() {
                 ))}
               </dl>
               <div className="mt-10">
-                <a href="#" className="text-base font-medium text-indigo-600">
+                {/* <a href="#" className="text-base font-medium text-indigo-600">
                   {" "}
                   Learn more about how we're changing the world{" "}
                   <span aria-hidden="true">&rarr;</span>{" "}
-                </a>
+                </a> */}
               </div>
             </div>
           </FadeInSection>
