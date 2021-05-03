@@ -19,12 +19,15 @@ export default function Company() {
           <FadeInSection>
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Used by the world's most average companies
+              Vi utvecklar applikationer för både webb och mobila enheter
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">
               Vi kodar gärna som konsulter hos andra team eller på projekt inom
-              vårt team. Vi utvecklar applikationer för både webb och mobila
-              enheter.
+              vårt team.
+            </p>
+            <p className="mt-1 max-w-3xl text-lg text-gray-500">
+                Vår utvecklingsprocess är agil med nära kommunikation mellan kunder och kollegor.
+                Processen gör att vi tillsammans med kunden kan vara kreativa hela vägen från idé till produkt.
             </p>
             <div className="mt-8 sm:flex">
               {/* <div className="rounded-md shadow">
@@ -49,7 +52,7 @@ export default function Company() {
           
           <div
             onClick={() => openLink("https://edaider.com/")}
-            className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2"
+            className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2 cursor-pointer"
           >
 
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 hover:bg-gray-200">

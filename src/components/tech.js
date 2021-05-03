@@ -8,13 +8,14 @@ export default function Tech() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center ">
           <FadeInSection>
         <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mt-10">
-              Techniques we love
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              Våra absoluta favorittekniker
             </h2>
-            <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Vi kodar gärna som konsulter hos andra team eller på projekt inom
-              vårt team. Vi utvecklar applikationer för både webb och mobila
-              enheter.
+              <p className="mt-3 max-w-3xl text-lg text-gray-500">
+                Vi täcker utveckling för iOS, Android och Webb.
+                De flesta projekt vi själva är med och startar upp kommer använda någon av våra favorittekniker,
+                men vi är bekväma med många andra tekniker.
+                
             </p>
           </div>
           </FadeInSection>
@@ -44,7 +45,7 @@ export default function Tech() {
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 hover:bg-gray-200">
               <img
                 className="max-h-12"
-                src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg"
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png"
                 alt="Laravel"
               />
             </div>
