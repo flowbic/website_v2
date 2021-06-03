@@ -137,7 +137,7 @@ export default function HeroSection() {
   return (
     <div className="bg-white">
       <header>
-        <Popover className="relative mb-5">
+        <Popover className="relative mb-5" style={{zIndex: 92}}>
           {({ open }) => (
             <>
               <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
@@ -187,7 +187,8 @@ export default function HeroSection() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-gray-400 hover:text-gray-500"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-500" rel="noreferrer"
                       >
                         <span className="sr-only">{item.name}</span>
                         <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -295,7 +296,7 @@ export default function HeroSection() {
 
       <div>
         {/* Hero card */}
-        <div className="relative">
+        <div className="relative overflow-hidden">
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray" />
           <div
             className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full py-5"

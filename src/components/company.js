@@ -51,11 +51,13 @@ export default function Company() {
           </FadeInSection>
           
           <div
-            onClick={() => openLink("https://edaider.com/")}
             className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2 cursor-pointer"
           >
 
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 hover:bg-gray-200">
+            <div
+              onClick={() => openLink("https://edaider.com/")}
+              className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 hover:bg-gray-200"
+            >
               <img className="max-h-12" src={edaiderLogo} alt="Workcation" />
             </div>
             <div

@@ -43,7 +43,7 @@ const people = [
     name: "Karl Erelöf",
     role: "Senior Front-end Developer",
     imageUrl: karl,
-    bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvao och förståelse i varje projekt.",
+    bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvaro och förståelse i varje projekt.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
