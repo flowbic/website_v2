@@ -1,92 +1,92 @@
-import david from "../assets/images/david.webp";
-import carl from "../assets/images/carl.webp";
-import karl from "../assets/images/karl.webp";
-import joel from "../assets/images/joel.webp";
-import marcus from "../assets/images/marcus.webp";
+import david from '../assets/images/david.webp';
+import carl from '../assets/images/carl.webp';
+import karl from '../assets/images/karl.webp';
+import joel from '../assets/images/joel.webp';
+import marcus from '../assets/images/marcus.webp';
 const people = [
   {
-    name: "Joel Carlsson",
-    role: "Senior Front-end Developer",
+    name: 'Joel Carlsson',
+    role: 'Senior Front-end Developer',
     imageUrl: joel,
-    bio: "Joel är kreativ, analytisk och en fena på att lösa logiska problem.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    bio: 'Joel är kreativ, analytisk och en fena på att lösa logiska problem.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
   },
   {
-    name: "David Sturesson",
-    role: "Senior Front-end Developer",
+    name: 'David Sturesson',
+    role: 'Senior Front-end Developer',
     imageUrl: david,
-    bio: "David är en strukturerad kodare med starka skills i problemförståelse och inlärning.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    bio: 'David är en strukturerad kodare med starka skills i problemförståelse och inlärning.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
   },
 
   {
-    name: "Carl Ejnarsson",
-    role: "Senior Front-end Developer",
+    name: 'Carl Ejnarsson',
+    role: 'Senior Front-end Developer',
     imageUrl: carl,
-    bio:
-      "Carl är en strukturerad utvecklare med ett starkt öga för detaljer och design.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    bio: 'Carl är en strukturerad utvecklare med ett starkt öga för detaljer och design.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
   },
   {
-    name: "Marcus Thuresson",
-    role: "Senior Front-end Developer",
+    name: 'Marcus Thuresson',
+    role: 'Senior Front-end Developer',
     imageUrl: marcus,
-    bio:
-      "Marcus är en riktig ”doer” med ett starkt kreativt tänk som skapar grymma lösningar i de största utmaningarna",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    bio: 'Marcus är en riktig ”doer” med ett starkt kreativt tänk som skapar grymma lösningar i de största utmaningarna',
+    twitterUrl: '#',
+    linkedinUrl: '#',
   },
-  {
-    name: "Karl Erelöf",
-    role: "Senior Front-end Developer",
-    imageUrl: karl,
-    bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvaro och förståelse i varje projekt.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
+  // {
+  //   name: "Karl Erelöf",
+  //   role: "Senior Front-end Developer",
+  //   imageUrl: karl,
+  //   bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvaro och förståelse i varje projekt.",
+  //   twitterUrl: "#",
+  //   linkedinUrl: "#",
+  // },
 ];
 
 export default function Team() {
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 mx-auto py-12 px-4 max-w-12xl sm:px-6 lg:px-8 lg:py-24">
+    <div className='bg-white'>
+      <div className='relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0'>
+        <div className='space-y-5 sm:space-y-4'>
+          <h2 className='text-3xl font-extrabold tracking-tight sm:text-4xl'>
+            Vårt Team
+          </h2>
+          <p className='text-xl text-gray-500'>
+            Tillit, lyhördhet och ett starkt gemensamt intresse är det som
+            definierar Flowbic. Det har gett oss kunskapen om varandras styrkor
+            och svagheter. Vi vet vem som kan mest om problemet vi har framför
+            oss. Stark gruppdynamik och nära kommunikation gör att vi kan växa
+            tillsammans för varje individuell prestation.
+          </p>
+        </div>
+      </div>
+      <div className='max-w-7xl mx-auto py-12 mx-auto py-12 px-4 max-w-12xl sm:px-6 lg:px-8 lg:py-24'>
         {/* <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"> */}
-          <div className="lg:col-span-2">
-            <ul className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
-            <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              Vårt Team
-            </h2>
-            <p className="text-xl text-gray-500">
-              Tillit, lyhördhet och ett starkt gemensamt intresse är det som
-              definierar Flowbic. Det har gett oss kunskapen om varandras
-              styrkor och svagheter. Vi vet vem som kan mest om problemet vi har
-              framför oss. Stark gruppdynamik och nära kommunikation gör att vi
-              kan växa tillsammans för varje individuell prestation.
-            </p>
-          </div>
-              {people.map((person) => (
-                <li key={person.name}>
-                  <div className="space-y-4">
-                    <div className="aspect-w-3 aspect-h-2">
-                      <img
-                        className="object-cover shadow-lg rounded-lg"
-                        src={person.imageUrl}
-                        alt=""
-                      />
-                    </div>
-                    <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3>{person.name}</h3>
-                      {/* <p className="text-indigo-600">{person.role}</p> */}
-                    </div>
-                    <div className="text-lg">
-                      <p className="text-gray-500">{person.bio}</p>
-                    </div>
+        <div className='lg:col-span-2'>
+          <ul className='space-y-12 sm:grid sm:grid-cols-4 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8'>
+            {people.map((person) => (
+              <li key={person.name}>
+                <div className='space-y-4'>
+                  <div className='aspect-w-3 aspect-h-2'>
+                    <img
+                      className='object-cover shadow-lg rounded-lg'
+                      src={person.imageUrl}
+                      alt=''
+                    />
+                  </div>
+                  <div className='text-lg leading-6 font-medium space-y-1'>
+                    <h3>{person.name}</h3>
+                    {/* <p className="text-indigo-600">{person.role}</p> */}
+                  </div>
+                  <div className='text-lg'>
+                    <p className='text-gray-500'>{person.bio}</p>
+                  </div>
 
-                    {/* <ul className="flex space-x-5">
+                  {/* <ul className="flex space-x-5">
                       <li>
                         <a
                           href={person.twitterUrl}
@@ -124,11 +124,11 @@ export default function Team() {
                         </a>
                       </li>
                     </ul> */}
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
         {/* </div> */}
       </div>
     </div>
