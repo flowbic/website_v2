@@ -39,14 +39,7 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
-  {
-    name: "Karl Erelöf",
-    role: "Senior Front-end Developer",
-    imageUrl: karl,
-    bio: "Karl är en metodisk och noggrann utvecklare med ett kundinriktat tänk som ger en extrem närvaro och förståelse i varje projekt.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
+
 ];
 
 export default function Team() {
@@ -55,8 +48,7 @@ export default function Team() {
       <div className="max-w-7xl mx-auto py-12 mx-auto py-12 px-4 max-w-12xl sm:px-6 lg:px-8 lg:py-24">
         {/* <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"> */}
           <div className="lg:col-span-2">
-            <ul className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
-            <div className="space-y-5 sm:space-y-4">
+          <div className="space-y-5 sm:space-y-4 sm:mb-16 lg:w-2/3">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               Vårt Team
             </h2>
@@ -68,6 +60,7 @@ export default function Team() {
               kan växa tillsammans för varje individuell prestation.
             </p>
           </div>
+            <ul className="space-y-12 sm:grid sm:grid-cols-4 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="space-y-4">

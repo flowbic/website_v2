@@ -391,9 +391,9 @@ export default function HeroSection() {
                   </span>
                 </h1>
               </div>
-              <span className="absolute text-white bottom-2 right-4 text-xl">
+              {/* <span className="absolute text-white bottom-2 right-4 text-xl">
                 Kalmar | Stockhom
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
